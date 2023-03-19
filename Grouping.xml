@@ -31,11 +31,11 @@
     <classes>
      
     
-       <class name="testCases.TC_001_Register_user"/>
-
-      <class name="testCases.TC_003_loginTestInvalid"/>
-      <class name="testCases.TC_004_LogoutTestValid"/>
-      
+	    <class name="testCases.TC_001_Register_user"/>
+		<class name="testCases.TC_003_loginTestInvalid"/>
+	    <class name="testCases.TC_004_LogoutTestValid"/>
+		<class name="testCases.TC_005_Register_user_existingEmail"/>
+	      
        
     </classes>
     

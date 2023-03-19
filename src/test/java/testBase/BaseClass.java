@@ -13,6 +13,7 @@ import org.openqa.selenium.TakesScreenshot;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+//import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -28,6 +29,7 @@ import org.apache.logging.log4j.Logger;
 public class BaseClass {
 	
 public static WebDriver driver;
+//public ChromeOptions options;
 public  Logger logger;
 public ResourceBundle rb;
 
@@ -41,6 +43,8 @@ public ResourceBundle rb;
 		rb=ResourceBundle.getBundle("Config");
 		try {
 			if(br.equals("chrome")) {
+//				options=new ChromeOptions();
+//				options.setExperimentalOption("excludeSwitches",new String[] {"enable-automation"});
 				driver=new ChromeDriver();
 				logger.info("***** Chrome driver launched *******");
 			}

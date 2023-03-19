@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="135.282" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="5.549" tests="3" errors="0" skipped="2" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.17\bin"/>
-    <property name="sun.java.command" value="C:\Users\vasu1\AppData\Local\Temp\surefire12310469822968644672\surefirebooter-20230315155656953_3.jar C:\Users\vasu1\AppData\Local\Temp\surefire12310469822968644672 2023-03-15T15-56-56_642-jvmRun1 surefire-20230315155656953_1tmp surefire_0-20230315155656953_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\vasu1\AppData\Local\Temp\surefire4738413995377073393\surefirebooter-20230320040842762_3.jar C:\Users\vasu1\AppData\Local\Temp\surefire4738413995377073393 2023-03-20T04-08-42_480-jvmRun1 surefire-20230320040842762_1tmp surefire_0-20230320040842762_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\vasu1\Java Learning\AutomationExerciseApp\target\test-classes;C:\Users\vasu1\Java Learning\AutomationExerciseApp\target\classes;C:\Users\vasu1\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.1\selenium-java-4.8.1.jar;C:\Users\vasu1\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.1\selenium-api-4.8.1.jar;C:\Users\vasu1\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.1\selenium-chrome-driver-4.8.1.jar;C:\Users\vasu1\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\vasu1\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\vasu1\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\vasu1\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\vasu1\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\vasu1\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\vasu1\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\vasu1\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\vasu1\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\vasu1\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\vasu1\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.1\selenium-chromium-driver-4.8.1.jar;C:\Users\vasu1\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.1\selenium-json-4.8.1.jar;C:\Users\vasu1\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.8.1\selenium-devtools-v108-4.8.1.jar;C:\Users\vasu1\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.1\selenium-devtools-v109-4.8.1.jar;C:\Users\vasu1\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.8.1\selenium-devtools-v110-4.8.1.jar;C:\Users\vasu1\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.1\selenium-devtools-v85-4.8.1.jar;C:\Users\vasu1\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.1\selenium-edge-driver-4.8.1.jar;C:\Users\vasu1\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.1\selenium-firefox-driver-4.8.1.jar;C:\Users\vasu1\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.1\selenium-http-4.8.1.jar;C:\Users\vasu1\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\vasu1\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.1\selenium-ie-driver-4.8.1.jar;C:\Users\vasu1\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.1\selenium-remote-driver-4.8.1.jar;C:\Users\vasu1\.m2\repository\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar;C:\Users\vasu1\.m2\repository\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar;C:\Users\vasu1\.m2\repository\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar;C:\Users\vasu1\.m2\repository\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar;C:\Users\vasu1\.m2\repository\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar;C:\Users\vasu1\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar;C:\Users\vasu1\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.87.Final\netty-transport-classes-kqueue-4.1.87.Final.jar;C:\Users\vasu1\.m2\repository\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final.jar;C:\Users\vasu1\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final.jar;C:\Users\vasu1\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar;C:\Users\vasu1\.m2\repository\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar;C:\Users\vasu1\.m2\repository\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar;C:\Users\vasu1\.m2\repository\io\opentelemetry\opentelemetry-api\1.22.0\opentelemetry-api-1.22.0.jar;C:\Users\vasu1\.m2\repository\io\opentelemetry\opentelemetry-context\1.22.0\opentelemetry-context-1.22.0.jar;C:\Users\vasu1\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.22.0\opentelemetry-exporter-logging-1.22.0.jar;C:\Users\vasu1\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.22.0\opentelemetry-sdk-metrics-1.22.0.jar;C:\Users\vasu1\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.22.0-alpha\opentelemetry-sdk-logs-1.22.0-alpha.jar;C:\Users\vasu1\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.22.0-alpha\opentelemetry-api-logs-1.22.0-alpha.jar;C:\Users\vasu1\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.22.0\opentelemetry-sdk-common-1.22.0.jar;C:\Users\vasu1\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.22.0\opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar;C:\Users\vasu1\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.22.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar;C:\Users\vasu1\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.22.0\opentelemetry-sdk-trace-1.22.0.jar;C:\Users\vasu1\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.22.0\opentelemetry-sdk-1.22.0.jar;C:\Users\vasu1\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.22.0-alpha\opentelemetry-semconv-1.22.0-alpha.jar;C:\Users\vasu1\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\vasu1\.m2\repository\net\bytebuddy\byte-buddy\1.12.22\byte-buddy-1.12.22.jar;C:\Users\vasu1\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\vasu1\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\vasu1\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\vasu1\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\vasu1\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\vasu1\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\vasu1\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\vasu1\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\vasu1\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\vasu1\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.1\selenium-manager-4.8.1.jar;C:\Users\vasu1\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.1\selenium-safari-driver-4.8.1.jar;C:\Users\vasu1\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.1\selenium-support-4.8.1.jar;C:\Users\vasu1\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\vasu1\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\vasu1\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\vasu1\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\vasu1\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\vasu1\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\vasu1\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\vasu1\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\vasu1\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\vasu1\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\vasu1\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\vasu1\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\vasu1\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\vasu1\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\vasu1\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\vasu1\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\vasu1\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\vasu1\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\vasu1\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\vasu1\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\vasu1\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\vasu1\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\vasu1\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\vasu1\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\vasu1\AppData\Local\Temp\surefire12310469822968644672\surefirebooter-20230315155656953_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\vasu1\AppData\Local\Temp\surefire4738413995377073393\surefirebooter-20230320040842762_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.17+10-LTS-269"/>
@@ -60,96 +60,87 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="test_signupPage" classname="testCases.TC_001_Register_user" time="38.198">
-    <system-out><![CDATA[15:57:06.269 [main] INFO  testCases.TC_001_Register_user - ***** Edge driver launched *******
-15:57:21.478 [main] INFO  testCases.TC_001_Register_user - ****** url opened *******
-15:57:21.642 [main] INFO  testCases.TC_001_Register_user - ****** validated the homepage title ******
-15:57:21.666 [main] INFO  testCases.TC_001_Register_user - ****logstarting TC_001_Register_user Test*****
-15:57:24.314 [main] INFO  testCases.TC_001_Register_user - ***** Clicked on sinup Link *****
-15:57:24.402 [main] INFO  testCases.TC_001_Register_user - ***** Validated the New User Signup! title *****
-15:57:24.641 [main] INFO  testCases.TC_001_Register_user - ***** Started Entering the account details *******
-15:57:27.426 [main] INFO  testCases.TC_001_Register_user - ******** CLicked on sinup button *********
-15:57:27.535 [main] INFO  testCases.TC_001_Register_user - **** clicked on rd_btn ******
-15:57:27.849 [main] INFO  testCases.TC_001_Register_user - **** set password ******
-15:57:28.070 [main] INFO  testCases.TC_001_Register_user - **** set day from drpdown ******
-15:57:28.269 [main] INFO  testCases.TC_001_Register_user - **** set month drpdown ******
-15:57:28.450 [main] INFO  testCases.TC_001_Register_user - **** set year drpdown ******
-15:57:28.482 [main] INFO  testCases.TC_001_Register_user - **** clicked on newsletter checbox ******
-15:57:28.507 [main] INFO  testCases.TC_001_Register_user - **** clicked on option checbox ******
-15:57:28.668 [main] INFO  testCases.TC_001_Register_user - **** set firstname ******
-15:57:28.786 [main] INFO  testCases.TC_001_Register_user - **** set lastname ******
-15:57:28.946 [main] INFO  testCases.TC_001_Register_user - **** set companyname ******
-15:57:29.167 [main] INFO  testCases.TC_001_Register_user - **** set address1 ******
-15:57:29.399 [main] INFO  testCases.TC_001_Register_user - **** set address2 ******
-15:57:29.515 [main] INFO  testCases.TC_001_Register_user - **** set state ******
-15:57:29.629 [main] INFO  testCases.TC_001_Register_user - **** set cutyname ******
-15:57:29.739 [main] INFO  testCases.TC_001_Register_user - **** set zipcode ******
-15:57:29.859 [main] INFO  testCases.TC_001_Register_user - **** set mobile number ******
-15:57:35.812 [main] INFO  testCases.TC_001_Register_user - ***** Clicked on Submit button ********
-15:57:35.899 [main] INFO  testCases.TC_001_Register_user - **** Validated that account is created ******
-15:57:36.014 [main] INFO  testCases.TC_001_Register_user - ****** Clicked on contione button after acconnt creation *******
-15:57:47.757 [main] INFO  testCases.TC_001_Register_user - **** validated the account is logged in as username and see the logout link ******
-15:57:50.496 [main] INFO  testCases.TC_001_Register_user - ****** Clicked on Delete account button ***********
-15:57:50.548 [main] INFO  testCases.TC_001_Register_user - ******* validated the account deleted msg******
-]]></system-out>
+  <testcase name="setup[chrome](0)" classname="testCases.TC_005_Register_user_existingEmail" time="4.795">
+    <failure message="null" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.fail(Assert.java:115)
+	at testBase.BaseClass.setup(BaseClass.java:70)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting Microsoft Edge WebDriver 110.0.1587.69 (f970cc122bfe683a1917444c8c3ba299b94f7ec8) on port 16095
-To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
-
+Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 2439
 Only local connections are allowed.
-Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 20, 2023 4:08:48 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Invalid Status code=403 text=Forbidden
+java.io.IOException: Invalid Status code=403 text=Forbidden
+	at org.asynchttpclient.netty.handler.WebSocketHandler.abort(WebSocketHandler.java:92)
+	at org.asynchttpclient.netty.handler.WebSocketHandler.handleRead(WebSocketHandler.java:118)
+	at org.asynchttpclient.netty.handler.AsyncHttpClientHandler.channelRead(AsyncHttpClientHandler.java:78)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
 
-Microsoft Edge WebDriver was started successfully.
-[1678876025.682][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
 ]]></system-err>
   </testcase>
-  <testcase name="test_Login" classname="testCases.TC_003_loginTestInvalid" time="4.553">
-    <system-out><![CDATA[15:58:00.492 [main] INFO  testCases.TC_001_Register_user - ******* quiting the appliaction ******
-15:58:02.225 [main] INFO  testCases.TC_003_loginTestInvalid - ***** Edge driver launched *******
-15:58:15.637 [main] INFO  testCases.TC_003_loginTestInvalid - ****** url opened *******
-15:58:15.777 [main] INFO  testCases.TC_003_loginTestInvalid - ****** validated the homepage title ******
-15:58:15.777 [main] INFO  testCases.TC_003_loginTestInvalid - ****** Starting Login test with invalid data ******
-15:58:18.534 [main] INFO  testCases.TC_003_loginTestInvalid - ****** Clicked on Login link ******
-15:58:18.555 [main] INFO  testCases.TC_003_loginTestInvalid - ***** validated the login to account is visible 
-15:58:18.657 [main] INFO  testCases.TC_003_loginTestInvalid - ***** entered email id  ******
-15:58:18.798 [main] INFO  testCases.TC_003_loginTestInvalid - ***** entered password  ******
-15:58:20.291 [main] INFO  testCases.TC_003_loginTestInvalid - ***** Clicked on login button  ******
-15:58:20.331 [main] INFO  testCases.TC_003_loginTestInvalid - ***** validated txt with expecting error ******
-]]></system-out>
-    <system-err><![CDATA[Starting Microsoft Edge WebDriver 110.0.1587.69 (f970cc122bfe683a1917444c8c3ba299b94f7ec8) on port 16966
-To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
-
-Only local connections are allowed.
-Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
-
-Microsoft Edge WebDriver was started successfully.
-[1678876081.909][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-]]></system-err>
+  <testcase name="test_existing_Email" classname="testCases.TC_005_Register_user_existingEmail" time="0">
+    <skipped message="null"/>
   </testcase>
-  <testcase name="test_Login" classname="testCases.TC_004_LogoutTestValid" time="24.463">
-    <system-out><![CDATA[15:58:20.754 [main] INFO  testCases.TC_003_loginTestInvalid - ******* quiting the appliaction ******
-15:58:22.398 [main] INFO  testCases.TC_004_LogoutTestValid - ***** Edge driver launched *******
-15:58:49.880 [main] INFO  testCases.TC_004_LogoutTestValid - ****** url opened *******
-15:58:50.076 [main] INFO  testCases.TC_004_LogoutTestValid - ****** validated the homepage title ******
-15:58:52.428 [main] INFO  testCases.TC_004_LogoutTestValid - **** Clicked on signup link****
-15:58:52.488 [main] INFO  testCases.TC_004_LogoutTestValid - **** validated the login to your account text is visible ****
-15:58:52.650 [main] INFO  testCases.TC_004_LogoutTestValid - ***** entered email id  ******
-15:58:52.759 [main] INFO  testCases.TC_004_LogoutTestValid - ***** entered password  ******
-15:59:09.490 [main] INFO  testCases.TC_004_LogoutTestValid - ***** Clicked on login button  ******
-15:59:09.558 [main] INFO  testCases.TC_004_LogoutTestValid - ***** Validating the logout link in Loggedin homepage ******
-15:59:14.527 [main] INFO  testCases.TC_004_LogoutTestValid - ***** Clicked on logout button  ******
-15:59:14.528 [main] INFO  testCases.TC_004_LogoutTestValid - **** validating the login to your account text is visible ****
-]]></system-out>
-    <system-err><![CDATA[Starting Microsoft Edge WebDriver 110.0.1587.69 (f970cc122bfe683a1917444c8c3ba299b94f7ec8) on port 3403
-To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
-
-Only local connections are allowed.
-Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
-
-Microsoft Edge WebDriver was started successfully.
-[1678876102.076][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-]]></system-err>
+  <testcase name="teardown" classname="testCases.TC_005_Register_user_existingEmail" time="0">
+    <skipped/>
   </testcase>
 </testsuite>

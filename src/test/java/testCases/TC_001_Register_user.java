@@ -12,7 +12,7 @@ import pageObjects.AccountDeletedPage;
 public class TC_001_Register_user extends BaseClass{
 	
 		
-	@Test(priority=1,groups={"Sanity","Regression"})
+	@Test(groups={"Sanity","Regression"})
 	public void test_signupPage(){
 		logger.info("****logstarting TC_001_Register_user Test*****");
 		

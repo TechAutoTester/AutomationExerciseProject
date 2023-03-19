@@ -37,6 +37,9 @@ public class SinupLoginPage extends BasePage{
 	@FindBy(xpath="//p[normalize-space()='Your email or password is incorrect!']")
 	WebElement txt_verify_invalid;
 	
+	@FindBy(xpath="//p[normalize-space()='Email Address already exist!']")
+	WebElement verify_exist_email_msg;
+	
 	//Actions:
 	public boolean verify_newUser_sinup() {
 		try{
@@ -87,20 +90,22 @@ public class SinupLoginPage extends BasePage{
 	catch(Exception e) {
 		return(false);
 	}
+	}
+	
+	public boolean verify_Exist_email_msg() {
+		try{
+			return (verify_exist_email_msg.isDisplayed());
+		}
+		catch(Exception e) {
+			return (false);
+		}
+		}
+	
+	
+	
+	
+	
+	
 }
 
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-}

@@ -5,29 +5,15 @@
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
   <test thread-count="5" name="AllTests2(failed)">
-    <parameter name="browser" value="edge"/>
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_004_LogoutTestValid">
+      <class name="testCases.TC_005_Register_user_existingEmail">
         <methods>
           <include name="teardown"/>
-          <include name="test_Login"/>
+          <include name="test_existing_Email"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC_004_LogoutTestValid -->
-      <class name="testCases.TC_003_loginTestInvalid">
-        <methods>
-          <include name="teardown"/>
-          <include name="test_Login"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_003_loginTestInvalid -->
-      <class name="testCases.TC_001_Register_user">
-        <methods>
-          <include name="teardown"/>
-          <include name="test_signupPage"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_001_Register_user -->
+      </class> <!-- testCases.TC_005_Register_user_existingEmail -->
     </classes>
   </test> <!-- AllTests2(failed) -->
 </suite> <!-- Failed suite [MasterSuite] -->
