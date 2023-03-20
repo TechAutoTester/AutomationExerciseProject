@@ -1,8 +1,10 @@
+C:\Users\vasu1\Java Learning\AutomationExerciseApp\src\test\java\testCases\TC_006_ContactUsForm.java
 C:\Users\vasu1\Java Learning\AutomationExerciseApp\src\test\java\testCases\TC_004_LogoutTestValid.java
 C:\Users\vasu1\Java Learning\AutomationExerciseApp\src\test\java\testCases\TC_002_DeleteAccount.java
 C:\Users\vasu1\Java Learning\AutomationExerciseApp\src\test\java\testCases\TC_005_Register_user_existingEmail.java
 C:\Users\vasu1\Java Learning\AutomationExerciseApp\src\test\java\testBase\BaseClass.java
 C:\Users\vasu1\Java Learning\AutomationExerciseApp\src\test\java\pageObjects\SinupLoginPage.java
+C:\Users\vasu1\Java Learning\AutomationExerciseApp\src\test\java\pageObjects\ContactUsPage.java
 C:\Users\vasu1\Java Learning\AutomationExerciseApp\src\test\java\utilities\ExcelUtility.java
 C:\Users\vasu1\Java Learning\AutomationExerciseApp\src\test\java\testCases\TC_001_Register_user.java
 C:\Users\vasu1\Java Learning\AutomationExerciseApp\src\test\java\pageObjects\AccountCreatedPage.java

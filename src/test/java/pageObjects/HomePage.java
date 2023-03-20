@@ -22,6 +22,9 @@ public class HomePage extends BasePage{
 	@FindBy(xpath="//a[@href='/delete_account']")
 	WebElement linkDeleteAccount;
 	
+	@FindBy(xpath="//a[normalize-space()='Contact us']")
+	WebElement linkContactUs;
+	
 	//ActionMethods:
 	public void click_sinup_login() {
 		link_sinup.click();
@@ -43,6 +46,14 @@ public class HomePage extends BasePage{
 		btn_logout.click();
 	}
 	
+	
+	public void click_contact_us() {
+		linkContactUs.click();
+	}
+	
+	public String HomePageTitle() {
+		return(driver.getTitle());
+	}
 	
 	
 	

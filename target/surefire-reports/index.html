@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-MasterSuite" class="navigator-link">
-              <span class="suite-name border-skipped">MasterSuite</span>
+              <span class="suite-name border-failed">MasterSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,  1 skipped,  </span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-MasterSuite" class="hide-methods skipped suite-MasterSuite"> (hide)</a> <!-- hide-methods skipped suite-MasterSuite -->
-                      <a href="#" panel-name="suite-MasterSuite" class="show-methods skipped suite-MasterSuite"> (show)</a> <!-- show-methods skipped suite-MasterSuite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-MasterSuite" class="hide-methods failed suite-MasterSuite"> (hide)</a> <!-- hide-methods failed suite-MasterSuite -->
+                      <a href="#" panel-name="suite-MasterSuite" class="show-methods failed suite-MasterSuite"> (show)</a> <!-- show-methods failed suite-MasterSuite -->
                     </span>
-                    <div class="method-list-content skipped suite-MasterSuite">
+                    <div class="method-list-content failed suite-MasterSuite">
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-MasterSuite" title="testCases.TC_005_Register_user_existingEmail" class="method navigator-link" hash-for-method="test_existing_Email">test_existing_Email</a> <!-- method navigator-link -->
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MasterSuite" title="testCases.TC_006_ContactUsForm" class="method navigator-link" hash-for-method="test_contactus_Form">test_contactus_Form</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-MasterSuite -->
+                    </div> <!-- method-list-content failed suite-MasterSuite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -118,26 +118,26 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-MasterSuite" class="panel MasterSuite">
-          <div class="suite-MasterSuite-class-skipped">
+          <div class="suite-MasterSuite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">testCases.TC_005_Register_user_existingEmail</span>
+              <img src="failed.png"/>
+              <span class="class-name">testCases.TC_006_ContactUsForm</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test_existing_Email">
-                  </a> <!-- test_existing_Email -->
-                  <span class="method-name">test_existing_Email</span>
-                  <div class="stack-trace">java.lang.AssertionError: null
-	at testBase.BaseClass.setup(BaseClass.java:70)
+                  <a name="test_contactus_Form">
+                  </a> <!-- test_contactus_Form -->
+                  <span class="method-name">test_contactus_Form</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Automation Exercise] but found [Automation Exercise - Contact Us]
+	at testCases.TC_006_ContactUsForm.test_contactus_Form(TC_006_ContactUsForm.java:43)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 31 stack frames
+... Removed 37 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-MasterSuite-class-skipped -->
+          </div> <!-- suite-MasterSuite-class-failed -->
         </div> <!-- panel MasterSuite -->
         <div panel-name="test-xml-MasterSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -152,9 +152,9 @@
     &lt;listener class-name=&quot;utilities.ExtentReportManager&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;AllTests2&quot; verbose=&quot;0&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testCases.TC_005_Register_user_existingEmail&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_006_ContactUsForm&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- AllTests2 --&gt;
 &lt;/suite&gt; &lt;!-- MasterSuite --&gt;
@@ -179,18 +179,18 @@
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
-              <span class="test-group-name">Regression</span>
+              <span class="test-group-name">Master</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">test_existing_Email</span>
+                <span class="method-in-group-name">test_contactus_Form</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
             <div class="test-group">
-              <span class="test-group-name">sanity</span>
+              <span class="test-group-name">Sanity</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">test_existing_Email</span>
+                <span class="method-in-group-name">test_contactus_Form</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -212,14 +212,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test_existing_Email')
-data.setCell(0, 2, 'testCases.TC_005_Register_user_existingEmail')
-data.setCell(0, 3, 0);
+data.setCell(0, 1, 'test_contactus_Form')
+data.setCell(0, 2, 'testCases.TC_006_ContactUsForm')
+data.setCell(0, 3, 12252);
 window.suiteTableData['MasterSuite']= { tableData: data, tableDiv: 'times-div-MasterSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
               <div id="times-div-MasterSuite">
               </div> <!-- times-div-MasterSuite -->
             </div> <!-- times-div -->
@@ -245,21 +245,17 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC_005_Register_user_existingEmail</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.TC_006_ContactUsForm</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">setup(chrome)</span>
+                <span class="method-name">setup(edge)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">test_existing_Email</span>
-                <span class="method-start">3929 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_contactus_Form</span>
+                <span class="method-start">17356 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">3947 ms</span>
-              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

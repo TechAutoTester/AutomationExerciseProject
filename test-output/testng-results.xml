@@ -2,18 +2,18 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-20T04:17:55 IST" name="Failed suite [MasterSuite]" finished-at="2023-03-20T04:18:27 IST" duration-ms="31742">
+  <suite started-at="2023-03-21T04:36:54 IST" name="MasterSuite" finished-at="2023-03-21T04:37:39 IST" duration-ms="45178">
     <groups>
-      <group name="Regression">
-        <method signature="TC_005_Register_user_existingEmail.test_existing_Email()[pri:0, instance:testCases.TC_005_Register_user_existingEmail@12aba8be]" name="test_existing_Email" class="testCases.TC_005_Register_user_existingEmail"/>
-      </group> <!-- Regression -->
-      <group name="sanity">
-        <method signature="TC_005_Register_user_existingEmail.test_existing_Email()[pri:0, instance:testCases.TC_005_Register_user_existingEmail@12aba8be]" name="test_existing_Email" class="testCases.TC_005_Register_user_existingEmail"/>
-      </group> <!-- sanity -->
+      <group name="Master">
+        <method signature="TC_006_ContactUsForm.test_contactus_Form()[pri:0, instance:testCases.TC_006_ContactUsForm@550dbc7a]" name="test_contactus_Form" class="testCases.TC_006_ContactUsForm"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC_006_ContactUsForm.test_contactus_Form()[pri:0, instance:testCases.TC_006_ContactUsForm@550dbc7a]" name="test_contactus_Form" class="testCases.TC_006_ContactUsForm"/>
+      </group> <!-- Sanity -->
     </groups>
-    <test started-at="2023-03-20T04:17:55 IST" name="AllTests2(failed)" finished-at="2023-03-20T04:18:27 IST" duration-ms="31742">
-      <class name="testCases.TC_005_Register_user_existingEmail">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_005_Register_user_existingEmail@12aba8be]" started-at="2023-03-20T04:17:56 IST" name="setup" finished-at="2023-03-20T04:18:12 IST" duration-ms="16758" status="PASS">
+    <test started-at="2023-03-21T04:36:54 IST" name="AllTests2" finished-at="2023-03-21T04:37:39 IST" duration-ms="45178">
+      <class name="testCases.TC_006_ContactUsForm">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_006_ContactUsForm@550dbc7a]" started-at="2023-03-21T04:36:55 IST" name="setup" finished-at="2023-03-21T04:37:22 IST" duration-ms="27844" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -24,15 +24,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_existing_Email()[pri:0, instance:testCases.TC_005_Register_user_existingEmail@12aba8be]" started-at="2023-03-20T04:18:12 IST" name="test_existing_Email" finished-at="2023-03-20T04:18:26 IST" duration-ms="13440" status="PASS">
+        <test-method signature="test_contactus_Form()[pri:0, instance:testCases.TC_006_ContactUsForm@550dbc7a]" started-at="2023-03-21T04:37:22 IST" name="test_contactus_Form" finished-at="2023-03-21T04:37:39 IST" duration-ms="16791" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_existing_Email -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_005_Register_user_existingEmail@12aba8be]" started-at="2023-03-20T04:18:26 IST" name="teardown" finished-at="2023-03-20T04:18:27 IST" duration-ms="959" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- testCases.TC_005_Register_user_existingEmail -->
-    </test> <!-- AllTests2(failed) -->
-  </suite> <!-- Failed suite [MasterSuite] -->
+        </test-method> <!-- test_contactus_Form -->
+      </class> <!-- testCases.TC_006_ContactUsForm -->
+    </test> <!-- AllTests2 -->
+  </suite> <!-- MasterSuite -->
 </testng-results>

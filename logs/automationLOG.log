@@ -1,8 +1,0 @@
-04:18:05.096 [main] INFO  testCases.TC_005_Register_user_existingEmail - ***** Edge driver launched *******
-04:18:12.670 [main] INFO  testCases.TC_005_Register_user_existingEmail - ****** url opened *******
-04:18:12.851 [main] INFO  testCases.TC_005_Register_user_existingEmail - ****** validated the homepage title ******
-04:18:12.884 [main] INFO  testCases.TC_005_Register_user_existingEmail - ****** Satrted TC_005_Register_user_existingEmail *****
-04:18:20.066 [main] INFO  testCases.TC_005_Register_user_existingEmail - **** Clicked on Sinup link ******
-04:18:20.215 [main] INFO  testCases.TC_005_Register_user_existingEmail - **** Verify the element new user sinup is visible********
-04:18:26.313 [main] INFO  testCases.TC_005_Register_user_existingEmail - **** Verify the msg Email Address already exist!********
-04:18:27.293 [main] INFO  testCases.TC_005_Register_user_existingEmail - ******* quiting the appliaction ******
