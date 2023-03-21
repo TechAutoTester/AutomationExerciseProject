@@ -25,6 +25,12 @@ public class HomePage extends BasePage{
 	@FindBy(xpath="//a[normalize-space()='Contact us']")
 	WebElement linkContactUs;
 	
+	@FindBy(xpath="//a[contains(text(),'Test Cases')]")
+	WebElement linkTestCases;
+	
+	@FindBy(xpath="//a[@href='/products']")
+	WebElement linkProducts;
+	
 	//ActionMethods:
 	public void click_sinup_login() {
 		link_sinup.click();
@@ -51,9 +57,15 @@ public class HomePage extends BasePage{
 		linkContactUs.click();
 	}
 	
-	public String HomePageTitle() {
-		return(driver.getTitle());
+	public void click_testcases() {
+		linkTestCases.click();
 	}
+
+	public void click_products() {
+		linkProducts.click();
+	}
+	
+	
 	
 	
 	
