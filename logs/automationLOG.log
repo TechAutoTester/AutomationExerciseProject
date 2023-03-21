@@ -1,0 +1,14 @@
+00:47:03.931 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** Edge driver launched *******
+00:47:32.491 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ****** url opened *******
+00:47:32.647 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ****** validated the homepage title ******
+00:47:32.666 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** Started TC_008_VerifyAllProductDetails *****
+00:47:32.825 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** Clicked on products link *****
+00:47:41.177 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** validated all products *******
+00:47:43.960 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** clicked on first view product *****
+00:47:43.994 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** validated product name *******
+00:47:44.020 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** validated product category *******
+00:47:44.043 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** validated product price *******
+00:47:44.072 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** validated product availability *******
+00:47:44.175 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** validated product condition *******
+00:47:44.202 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** validated product brand *******
+00:47:44.923 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ******* quiting the appliaction ******

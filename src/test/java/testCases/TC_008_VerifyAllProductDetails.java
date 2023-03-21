@@ -1,5 +1,6 @@
 package testCases;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -21,8 +22,11 @@ public class TC_008_VerifyAllProductDetails extends BaseClass{
 		ProductsLandingPage plp=new ProductsLandingPage(driver);
 		Assert.assertEquals(plp.verifyAll_products(),true);
 		logger.info("***** validated all products *******");
-		plp.click_viewproduct1();
+		
+		JavascriptExecutor ex= (JavascriptExecutor)driver;
+		ex.executeScript("arguments[0].click();",plp.viewproduct1());
 		logger.info("***** clicked on first view product *****");
+		
 		ProductDetailPage1 pdp=new ProductDetailPage1(driver);
 		Assert.assertEquals(pdp.verify_product_name(), true);
 		logger.info("***** validated product name *******");
@@ -36,6 +40,7 @@ public class TC_008_VerifyAllProductDetails extends BaseClass{
 		logger.info("***** validated product condition *******");
 		Assert.assertEquals(pdp.verify_brand(), true);	
 		logger.info("***** validated product brand *******");
+		logger.info("***** testCase passed");
 	}
 		catch(Exception e) {
 			Assert.fail();

@@ -32,11 +32,12 @@ public class ProductsLandingPage extends BasePage{
 		}
 	}
 	
-	public void click_viewproduct1() {
-		try{linkViewproduct1.click();
+	public Object viewproduct1() {
+		try{
+			return(linkViewproduct1);
 	}
 		catch(Exception e){
-			e.getMessage();
+			return false;
 		}
 	
 	

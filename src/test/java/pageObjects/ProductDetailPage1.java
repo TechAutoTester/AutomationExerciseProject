@@ -9,7 +9,7 @@ public class ProductDetailPage1 extends BasePage{
 	public ProductDetailPage1(WebDriver driver) {
 		super(driver);
 	}
-	//Web elements pending ...need to change
+	//Web elements
 	@FindBy(xpath="//h2[normalize-space()='Blue Top']")
 	WebElement txt_productName;
 	
