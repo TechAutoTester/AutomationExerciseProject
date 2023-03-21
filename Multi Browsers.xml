@@ -5,11 +5,13 @@
   <test thread-count="5" name="ChromeTests">
 	  <parameter name="browser" value="chrome"/>
     <classes>
-	<class name="testCases.TC_001_Register_user"/>
-     <class name="testCases.TC_004_LogoutTestValid"/>
-     <class name="testCases.TC_003_loginTestInvalid"/>
-    <class name="testCases.TC_002_LoginTest"/>
-   	<class name="testCases.TC_005_Register_user_existingEmail"/>
+	<class name="testCases.TC_005_Register_user_existingEmail"/>		
+		      <class name="testCases.TC_001_Register_user"/>
+		      <class name="testCases.TC_003_loginTestInvalid"/>
+		      <class name="testCases.TC_004_LogoutTestValid"/>		
+		      <class name="testCases.TC_006_ContactUsForm"/>			
+		     <class name="testCases.TC_007_VerifyTestCasesPage"/>   
+		     <class name="testCases.TC_008_VerifyAllProductDetails"/>
 
       
     </classes>
@@ -18,10 +20,13 @@
   <test thread-count="5" name="EdgeTests">
 	  <parameter name="browser" value="edge"/>
     <classes>
-	<class name="testCases.TC_001_Register_user"/>
-      <class name="testCases.TC_004_LogoutTestValid"/>
-      <class name="testCases.TC_003_loginTestInvalid"/>
-   <class name="testCases.TC_002_LoginTest"/>
+	<class name="testCases.TC_005_Register_user_existingEmail"/>		
+		      <class name="testCases.TC_001_Register_user"/>
+		      <class name="testCases.TC_003_loginTestInvalid"/>
+		      <class name="testCases.TC_004_LogoutTestValid"/>		
+		      <class name="testCases.TC_006_ContactUsForm"/>			
+		     <class name="testCases.TC_007_VerifyTestCasesPage"/>   
+		     <class name="testCases.TC_008_VerifyAllProductDetails"/>
       
     </classes>
   </test> <!-- Test -->
@@ -29,11 +34,13 @@
   <test thread-count="5" name="Firefoxtests">
 	  <parameter name="browser" value="firefox"/>
     <classes>
-	<class name="testCases.TC_001_Register_user"/>
-   <class name="testCases.TC_004_LogoutTestValid"/>
-   <class name="testCases.TC_003_loginTestInvalid"/>
-   <class name="testCases.TC_002_LoginTest"/>
-   <class name="testCases.TC_005_Register_user_existingEmail"/>
+	<class name="testCases.TC_005_Register_user_existingEmail"/>		
+		      <class name="testCases.TC_001_Register_user"/>
+		      <class name="testCases.TC_003_loginTestInvalid"/>
+		      <class name="testCases.TC_004_LogoutTestValid"/>		
+		      <class name="testCases.TC_006_ContactUsForm"/>			
+		     <class name="testCases.TC_007_VerifyTestCasesPage"/>   
+		     <class name="testCases.TC_008_VerifyAllProductDetails"/>
 
       
     </classes>

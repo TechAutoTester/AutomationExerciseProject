@@ -12,3 +12,58 @@
 00:47:44.175 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** validated product condition *******
 00:47:44.202 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** validated product brand *******
 00:47:44.923 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ******* quiting the appliaction ******
+03:41:34.529 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** Edge driver launched *******
+03:41:41.733 [main] INFO  testCases.TC_009_VerifySearchProduct - ****** url opened *******
+03:41:42.009 [main] INFO  testCases.TC_009_VerifySearchProduct - ****** validated the homepage title ******
+03:41:42.053 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** Started TC_009_VerifySearchProduct *****
+03:41:42.506 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** Clicked on products link *****
+03:41:59.321 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** validated all products *******
+03:42:07.745 [main] INFO  testCases.TC_009_VerifySearchProduct - ******* quiting the appliaction ******
+03:58:34.064 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** Edge driver launched *******
+03:58:52.914 [main] INFO  testCases.TC_009_VerifySearchProduct - ****** url opened *******
+03:58:53.170 [main] INFO  testCases.TC_009_VerifySearchProduct - ****** validated the homepage title ******
+03:58:54.561 [main] INFO  testCases.TC_009_VerifySearchProduct - ******* quiting the appliaction ******
+03:59:36.922 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** Edge driver launched *******
+03:59:45.321 [main] INFO  testCases.TC_009_VerifySearchProduct - ****** url opened *******
+03:59:45.591 [main] INFO  testCases.TC_009_VerifySearchProduct - ****** validated the homepage title ******
+03:59:47.298 [main] INFO  testCases.TC_009_VerifySearchProduct - ******* quiting the appliaction ******
+04:05:16.398 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** Edge driver launched *******
+04:05:25.042 [main] INFO  testCases.TC_009_VerifySearchProduct - ****** url opened *******
+04:05:25.291 [main] INFO  testCases.TC_009_VerifySearchProduct - ****** validated the homepage title ******
+04:05:25.357 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** Started TC_009_VerifySearchProduct *****
+04:05:25.692 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** Clicked on products link *****
+04:05:36.574 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** validated all products *******
+04:05:41.084 [main] INFO  testCases.TC_009_VerifySearchProduct - **** clicked search button ****
+04:05:42.927 [main] INFO  testCases.TC_009_VerifySearchProduct - ******* quiting the appliaction ******
+04:09:19.462 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** Edge driver launched *******
+04:09:26.176 [main] INFO  testCases.TC_009_VerifySearchProduct - ****** url opened *******
+04:09:26.468 [main] INFO  testCases.TC_009_VerifySearchProduct - ****** validated the homepage title ******
+04:09:26.582 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** Started TC_009_VerifySearchProduct *****
+04:09:26.894 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** Clicked on products link *****
+04:09:39.150 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** validated all products *******
+04:09:43.964 [main] INFO  testCases.TC_009_VerifySearchProduct - **** clicked search button ****
+04:09:45.713 [main] INFO  testCases.TC_009_VerifySearchProduct - ******* quiting the appliaction ******
+04:11:53.538 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** Edge driver launched *******
+04:12:01.661 [main] INFO  testCases.TC_009_VerifySearchProduct - ****** url opened *******
+04:12:01.984 [main] INFO  testCases.TC_009_VerifySearchProduct - ****** validated the homepage title ******
+04:12:02.050 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** Started TC_009_VerifySearchProduct *****
+04:12:02.508 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** Clicked on products link *****
+04:12:11.654 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** validated all products *******
+04:12:15.220 [main] INFO  testCases.TC_009_VerifySearchProduct - **** clicked search button ****
+04:12:17.396 [main] INFO  testCases.TC_009_VerifySearchProduct - ******* quiting the appliaction ******
+04:24:42.689 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** Edge driver launched *******
+04:24:52.519 [main] INFO  testCases.TC_009_VerifySearchProduct - ****** url opened *******
+04:24:52.952 [main] INFO  testCases.TC_009_VerifySearchProduct - ****** validated the homepage title ******
+04:24:53.004 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** Started TC_009_VerifySearchProduct *****
+04:24:53.576 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** Clicked on products link *****
+04:25:05.124 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** validated all products *******
+04:25:11.715 [main] INFO  testCases.TC_009_VerifySearchProduct - **** clicked search button ****
+04:25:12.839 [main] INFO  testCases.TC_009_VerifySearchProduct - ******* quiting the appliaction ******
+04:27:33.898 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** Edge driver launched *******
+04:27:41.297 [main] INFO  testCases.TC_009_VerifySearchProduct - ****** url opened *******
+04:27:41.490 [main] INFO  testCases.TC_009_VerifySearchProduct - ****** validated the homepage title ******
+04:27:41.511 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** Started TC_009_VerifySearchProduct *****
+04:27:41.656 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** Clicked on products link *****
+04:27:55.747 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** validated all products *******
+04:28:00.187 [main] INFO  testCases.TC_009_VerifySearchProduct - **** clicked search button ****
+04:28:02.301 [main] INFO  testCases.TC_009_VerifySearchProduct - ******* quiting the appliaction ******

@@ -17,9 +17,9 @@
 		      <class name="testCases.TC_003_loginTestInvalid"/>
 		      <class name="testCases.TC_004_LogoutTestValid"/>		
 		      <class name="testCases.TC_006_ContactUsForm"/>			
-		     <class name="testCases.TC_007_VerifyTestCasesPage"/>   -->
-		     <class name="testCases.TC_008_VerifyAllProductDetails"/>  
-
+		     <class name="testCases.TC_007_VerifyTestCasesPage"/>   
+		     <class name="testCases.TC_008_VerifyAllProductDetails"/>  	-->
+			<class name="testCases.TC_009_VerifySearchProduct"/>
        
     </classes>
     
