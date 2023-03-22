@@ -1,6 +1,5 @@
 package testCases;
 
-import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -12,7 +11,7 @@ public class TC_009_VerifySearchProduct extends BaseClass{
 	
 	@Test(groups= {"sanity"})
 	public void test_search_product() {
-		
+		try {
 		logger.info("***** Started TC_009_VerifySearchProduct *****");
 		HomePage hp=new HomePage(driver);
 		hp.click_products();
@@ -24,12 +23,22 @@ public class TC_009_VerifySearchProduct extends BaseClass{
 		plp.searchProduct("Saree");
 		plp.click_search_btn();
 		logger.info("**** clicked search button ****");
-		JavascriptExecutor ex=(JavascriptExecutor)driver;
-		ex.executeScript("arguments[0].scrollIntoView();",plp.productname("saree"));
-		plp.productname("saree");
-		logger.debug("errormessasge");
-		logger.info("*** validated all the products ****");
-		//pending remaining
+		Assert.assertEquals(plp.verifySearchedProducts(),true);
+		logger.info("***** validated searched products txt *****");
+		
+		for(int i=2;i<5;i++) {
+			if(plp.productname(i).contains("Saree")) {
+				logger.info("***** validated the searched product name *********");
+				Assert.assertTrue(true);
+			}
+			else {
+				Assert.assertFalse(true);
+			}
+		}
+		}
+		catch(Exception e) {
+			Assert.fail();
+		}
 		
 		
 		

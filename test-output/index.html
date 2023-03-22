@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-MasterSuite" class="navigator-link">
-              <span class="suite-name border-failed">MasterSuite</span>
+              <span class="suite-name border-passed">MasterSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,21 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-MasterSuite" class="hide-methods failed suite-MasterSuite"> (hide)</a> <!-- hide-methods failed suite-MasterSuite -->
-                      <a href="#" panel-name="suite-MasterSuite" class="show-methods failed suite-MasterSuite"> (show)</a> <!-- show-methods failed suite-MasterSuite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-MasterSuite" class="hide-methods passed suite-MasterSuite"> (hide)</a> <!-- hide-methods passed suite-MasterSuite -->
+                      <a href="#" panel-name="suite-MasterSuite" class="show-methods passed suite-MasterSuite"> (show)</a> <!-- show-methods passed suite-MasterSuite -->
                     </span>
-                    <div class="method-list-content failed suite-MasterSuite">
+                    <div class="method-list-content passed suite-MasterSuite">
                       <span>
-                        <img src="failed.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-MasterSuite" title="testCases.TC_009_VerifySearchProduct" class="method navigator-link" hash-for-method="test_search_product">test_search_product</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-MasterSuite -->
+                    </div> <!-- method-list-content passed suite-MasterSuite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -119,9 +119,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-MasterSuite" class="panel MasterSuite">
-          <div class="suite-MasterSuite-class-failed">
+          <div class="suite-MasterSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">testCases.TC_009_VerifySearchProduct</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -130,16 +130,10 @@
                   <a name="test_search_product">
                   </a> <!-- test_search_product -->
                   <span class="method-name">test_search_product</span>
-                  <div class="stack-trace">java.lang.AssertionError: null
-	at pageObjects.ProductsLandingPage.productname(ProductsLandingPage.java:67)
-	at testCases.TC_009_VerifySearchProduct.test_search_product(TC_009_VerifySearchProduct.java:28)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-MasterSuite-class-failed -->
+          </div> <!-- suite-MasterSuite-class-passed -->
         </div> <!-- panel MasterSuite -->
         <div panel-name="test-xml-MasterSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -208,12 +202,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test_search_product')
 data.setCell(0, 2, 'testCases.TC_009_VerifySearchProduct')
-data.setCell(0, 3, 18739);
+data.setCell(0, 3, 16488);
 window.suiteTableData['MasterSuite']= { tableData: data, tableDiv: 'times-div-MasterSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 18 seconds</span>
+              <span class="suite-total-time">Total running time: 16 seconds</span>
               <div id="times-div-MasterSuite">
               </div> <!-- times-div-MasterSuite -->
             </div> <!-- times-div -->
@@ -245,14 +239,12 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">test_search_product</span>
-                <span class="method-start">13670 ms</span>
+                <span class="method-start">18403 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">33597 ms</span>
+                <span class="method-start">34932 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

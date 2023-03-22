@@ -1,12 +1,10 @@
 package pageObjects;
 
-import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.testng.Assert;
+//import org.testng.Assert;
 
 public class ProductsLandingPage extends BasePage{
 	
@@ -27,8 +25,10 @@ public class ProductsLandingPage extends BasePage{
 	@FindBy(id="submit_search")
 	WebElement searchtn;
 	
-	@FindBy(xpath="//div[2][@class='col-sm-4']/div/div/div/p")
-	List<WebElement> productList;
+	@FindBy(xpath="//h2[contains(text(),'Searched Products')]")
+	WebElement txtSearchedProducts;
+	
+
 	
 	//Actions
 	public boolean verifyAll_products() {
@@ -56,18 +56,15 @@ public class ProductsLandingPage extends BasePage{
 		searchtn.click();
 	}
 	
-	public  Object[] productname(String searchProduct) {
+	public boolean verifySearchedProducts() {
+		return(txtSearchedProducts.isDisplayed());
+	}
+	
+	public  String productname(int i) {
 		
-			for(int i=2;i<5;i++) {
 			String productname=driver.findElement(By.xpath("//div["+i+"][@class='col-sm-4']/div/div/div/p")).getText();
-			if(productname.contains(searchProduct)) {
-				Assert.assertTrue(true);	
-			}
-			else {
-				Assert.fail();
-			}
-		}
-			return productname(searchProduct);
+			return productname;
+			
 	
 }
 }
