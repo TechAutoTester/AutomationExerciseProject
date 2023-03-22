@@ -1,0 +1,129 @@
+02:51:51.610 [main] INFO  testCases.TC_005_Register_user_existingEmail - ***** Edge driver launched *******
+02:51:58.124 [main] INFO  testCases.TC_005_Register_user_existingEmail - ****** url opened *******
+02:51:58.305 [main] INFO  testCases.TC_005_Register_user_existingEmail - ****** validated the homepage title ******
+02:51:58.340 [main] INFO  testCases.TC_005_Register_user_existingEmail - ****** Satrted TC_005_Register_user_existingEmail *****
+02:51:59.839 [main] INFO  testCases.TC_005_Register_user_existingEmail - **** Clicked on Sinup link ******
+02:51:59.916 [main] INFO  testCases.TC_005_Register_user_existingEmail - **** Verify the element new user sinup is visible********
+02:52:02.799 [main] INFO  testCases.TC_005_Register_user_existingEmail - **** Verify the msg Email Address already exist!********
+02:52:04.028 [main] INFO  testCases.TC_005_Register_user_existingEmail - ******* quiting the appliaction ******
+02:52:07.568 [main] INFO  testCases.TC_001_Register_user - ***** Edge driver launched *******
+02:52:14.154 [main] INFO  testCases.TC_001_Register_user - ****** url opened *******
+02:52:14.526 [main] INFO  testCases.TC_001_Register_user - ****** validated the homepage title ******
+02:52:14.529 [main] INFO  testCases.TC_001_Register_user - ****logstarting TC_001_Register_user Test*****
+02:52:16.310 [main] INFO  testCases.TC_001_Register_user - ***** Clicked on sinup Link *****
+02:52:16.362 [main] INFO  testCases.TC_001_Register_user - ***** Validated the New User Signup! title *****
+02:52:16.537 [main] INFO  testCases.TC_001_Register_user - ***** Started Entering the account details *******
+02:52:18.653 [main] INFO  testCases.TC_001_Register_user - ******** CLicked on sinup button *********
+02:52:19.505 [main] INFO  testCases.TC_001_Register_user - **** clicked on rd_btn ******
+02:52:19.695 [main] INFO  testCases.TC_001_Register_user - **** set password ******
+02:52:20.014 [main] INFO  testCases.TC_001_Register_user - **** set day from drpdown ******
+02:52:20.236 [main] INFO  testCases.TC_001_Register_user - **** set month drpdown ******
+02:52:20.444 [main] INFO  testCases.TC_001_Register_user - **** set year drpdown ******
+02:52:20.490 [main] INFO  testCases.TC_001_Register_user - **** clicked on newsletter checbox ******
+02:52:20.533 [main] INFO  testCases.TC_001_Register_user - **** clicked on option checbox ******
+02:52:20.673 [main] INFO  testCases.TC_001_Register_user - **** set firstname ******
+02:52:20.824 [main] INFO  testCases.TC_001_Register_user - **** set lastname ******
+02:52:21.006 [main] INFO  testCases.TC_001_Register_user - **** set companyname ******
+02:52:21.179 [main] INFO  testCases.TC_001_Register_user - **** set address1 ******
+02:52:21.336 [main] INFO  testCases.TC_001_Register_user - **** set address2 ******
+02:52:21.472 [main] INFO  testCases.TC_001_Register_user - **** set state ******
+02:52:21.613 [main] INFO  testCases.TC_001_Register_user - **** set cutyname ******
+02:52:21.738 [main] INFO  testCases.TC_001_Register_user - **** set zipcode ******
+02:52:21.906 [main] INFO  testCases.TC_001_Register_user - **** set mobile number ******
+02:52:26.280 [main] INFO  testCases.TC_001_Register_user - ***** Clicked on Submit button ********
+02:52:26.327 [main] INFO  testCases.TC_001_Register_user - **** Validated that account is created ******
+02:52:26.894 [main] INFO  testCases.TC_001_Register_user - ****** Clicked on contione button after acconnt creation *******
+02:52:31.890 [main] INFO  testCases.TC_001_Register_user - **** validated the account is logged in as username and see the logout link ******
+02:52:33.739 [main] INFO  testCases.TC_001_Register_user - ****** Clicked on Delete account button ***********
+02:52:33.790 [main] INFO  testCases.TC_001_Register_user - ******* validated the account deleted msg******
+02:52:39.865 [main] INFO  testCases.TC_001_Register_user - ******* quiting the appliaction ******
+02:52:43.417 [main] INFO  testCases.TC_003_loginTestInvalid - ***** Edge driver launched *******
+02:52:49.163 [main] INFO  testCases.TC_003_loginTestInvalid - ****** url opened *******
+02:52:49.520 [main] INFO  testCases.TC_003_loginTestInvalid - ****** validated the homepage title ******
+02:52:49.525 [main] INFO  testCases.TC_003_loginTestInvalid - ****** Starting Login test with invalid data ******
+02:52:52.752 [main] INFO  testCases.TC_003_loginTestInvalid - ****** Clicked on Login link ******
+02:52:52.821 [main] INFO  testCases.TC_003_loginTestInvalid - ***** validated the login to account is visible 
+02:52:53.048 [main] INFO  testCases.TC_003_loginTestInvalid - ***** entered email id  ******
+02:52:53.158 [main] INFO  testCases.TC_003_loginTestInvalid - ***** entered password  ******
+02:52:55.964 [main] INFO  testCases.TC_003_loginTestInvalid - ***** Clicked on login button  ******
+02:52:56.020 [main] INFO  testCases.TC_003_loginTestInvalid - ***** validated txt with expecting error ******
+02:52:57.319 [main] INFO  testCases.TC_003_loginTestInvalid - ******* quiting the appliaction ******
+02:53:01.172 [main] INFO  testCases.TC_004_LogoutTestValid - ***** Edge driver launched *******
+02:53:07.672 [main] INFO  testCases.TC_004_LogoutTestValid - ****** url opened *******
+02:53:07.842 [main] INFO  testCases.TC_004_LogoutTestValid - ****** validated the homepage title ******
+02:53:08.868 [main] INFO  testCases.TC_004_LogoutTestValid - **** Clicked on signup link****
+02:53:08.913 [main] INFO  testCases.TC_004_LogoutTestValid - **** validated the login to your account text is visible ****
+02:53:09.068 [main] INFO  testCases.TC_004_LogoutTestValid - ***** entered email id  ******
+02:53:09.204 [main] INFO  testCases.TC_004_LogoutTestValid - ***** entered password  ******
+02:53:18.370 [main] INFO  testCases.TC_004_LogoutTestValid - ***** Clicked on login button  ******
+02:53:18.417 [main] INFO  testCases.TC_004_LogoutTestValid - ***** Validating the logout link in Loggedin homepage ******
+02:53:21.969 [main] INFO  testCases.TC_004_LogoutTestValid - ***** Clicked on logout button  ******
+02:53:21.970 [main] INFO  testCases.TC_004_LogoutTestValid - **** validating the login to your account text is visible ****
+02:53:23.110 [main] INFO  testCases.TC_004_LogoutTestValid - ******* quiting the appliaction ******
+02:53:26.695 [main] INFO  testCases.TC_006_ContactUsForm - ***** Edge driver launched *******
+02:53:32.880 [main] INFO  testCases.TC_006_ContactUsForm - ****** url opened *******
+02:53:33.060 [main] INFO  testCases.TC_006_ContactUsForm - ****** validated the homepage title ******
+02:53:33.066 [main] INFO  testCases.TC_006_ContactUsForm - ***** Started TC_006_ContactUsForm *******
+02:53:39.932 [main] INFO  testCases.TC_006_ContactUsForm - ***** Clicked on contactus link ******
+02:53:39.983 [main] INFO  testCases.TC_006_ContactUsForm - ***** validated get in touch element is visble
+02:53:40.600 [main] INFO  testCases.TC_006_ContactUsForm - **** name email and subjcet entered *****
+02:53:40.892 [main] INFO  testCases.TC_006_ContactUsForm - ***** entered my message *******
+02:53:41.070 [main] INFO  testCases.TC_006_ContactUsForm - **** file is uploaded*****
+02:53:41.137 [main] INFO  testCases.TC_006_ContactUsForm - **** clicked on submit button ***** 
+02:53:41.179 [main] INFO  testCases.TC_006_ContactUsForm - ***** Switched to alert and clicked on ok button *****
+02:53:41.260 [main] INFO  testCases.TC_006_ContactUsForm - ***** verified submitted details successfully message
+02:53:41.394 [main] INFO  testCases.TC_006_ContactUsForm - **** clicked on Home button ****
+02:53:47.328 [main] INFO  testCases.TC_006_ContactUsForm - **** validated the home page title *****
+02:53:48.742 [main] INFO  testCases.TC_006_ContactUsForm - ******* quiting the appliaction ******
+02:53:52.266 [main] INFO  testCases.TC_007_VerifyTestCasesPage - ***** Edge driver launched *******
+02:54:00.565 [main] INFO  testCases.TC_007_VerifyTestCasesPage - ****** url opened *******
+02:54:00.733 [main] INFO  testCases.TC_007_VerifyTestCasesPage - ****** validated the homepage title ******
+02:54:00.737 [main] INFO  testCases.TC_007_VerifyTestCasesPage - *** Started TC_007_VerifyTestCasesPage ******
+02:54:01.245 [main] INFO  testCases.TC_007_VerifyTestCasesPage - ***** clicked on testcases link ******
+02:54:05.886 [main] INFO  testCases.TC_007_VerifyTestCasesPage - ***** validated the testcases page with testcases heading ******
+02:54:07.332 [main] INFO  testCases.TC_007_VerifyTestCasesPage - ******* quiting the appliaction ******
+02:54:11.218 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** Edge driver launched *******
+02:54:18.208 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ****** url opened *******
+02:54:18.613 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ****** validated the homepage title ******
+02:54:18.615 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** Started TC_008_VerifyAllProductDetails *****
+02:54:18.964 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** Clicked on products link *****
+02:54:23.000 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** validated all products *******
+02:54:28.039 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** clicked on first view product *****
+02:54:28.086 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** validated product name *******
+02:54:28.127 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** validated product category *******
+02:54:28.175 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** validated product price *******
+02:54:28.325 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** validated product availability *******
+02:54:28.356 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** validated product condition *******
+02:54:28.396 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** validated product brand *******
+02:54:28.396 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** testCase passed
+02:54:29.924 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ******* quiting the appliaction ******
+02:54:33.271 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** Edge driver launched *******
+02:54:39.428 [main] INFO  testCases.TC_009_VerifySearchProduct - ****** url opened *******
+02:54:39.613 [main] INFO  testCases.TC_009_VerifySearchProduct - ****** validated the homepage title ******
+02:54:39.618 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** Started TC_009_VerifySearchProduct *****
+02:54:39.789 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** Clicked on products link *****
+02:54:47.274 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** validated all products *******
+02:54:51.676 [main] INFO  testCases.TC_009_VerifySearchProduct - **** clicked search button ****
+02:54:51.737 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** validated searched products txt *****
+02:54:51.790 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** validated the searched product name *********
+02:54:52.037 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** validated the searched product name *********
+02:54:52.085 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** validated the searched product name *********
+02:54:53.491 [main] INFO  testCases.TC_009_VerifySearchProduct - ******* quiting the appliaction ******
+02:54:57.457 [main] INFO  testCases.TC_010_VerifySubscriptionInHomePage - ***** Edge driver launched *******
+02:55:04.519 [main] INFO  testCases.TC_010_VerifySubscriptionInHomePage - ****** url opened *******
+02:55:04.724 [main] INFO  testCases.TC_010_VerifySubscriptionInHomePage - ****** validated the homepage title ******
+02:55:04.764 [main] INFO  testCases.TC_010_VerifySubscriptionInHomePage - ***** scroll to footer subscription element *******
+02:55:04.846 [main] INFO  testCases.TC_010_VerifySubscriptionInHomePage - ***** validated subscription txt is visible ****
+02:55:05.080 [main] INFO  testCases.TC_010_VerifySubscriptionInHomePage - **** entered email in txtbox ****
+02:55:05.176 [main] INFO  testCases.TC_010_VerifySubscriptionInHomePage - **** clicked on subscribe button ****
+02:55:06.105 [main] INFO  testCases.TC_010_VerifySubscriptionInHomePage - ***** validated subscription success message is visible ****
+02:55:07.297 [main] INFO  testCases.TC_010_VerifySubscriptionInHomePage - ******* quiting the appliaction ******
+02:55:10.831 [main] INFO  testCases.TC_011_VerifySubscriptionInCartPage - ***** Edge driver launched *******
+02:55:17.782 [main] INFO  testCases.TC_011_VerifySubscriptionInCartPage - ****** url opened *******
+02:55:17.947 [main] INFO  testCases.TC_011_VerifySubscriptionInCartPage - ****** validated the homepage title ******
+02:55:17.949 [main] INFO  testCases.TC_011_VerifySubscriptionInCartPage - **** Started TC_011_VerifySubscriptionInCartPage testCase ****
+02:55:20.565 [main] INFO  testCases.TC_011_VerifySubscriptionInCartPage - ***** clicked on cart link *****
+02:55:20.640 [main] INFO  testCases.TC_011_VerifySubscriptionInCartPage - **** validated the subscription txt ****
+02:55:21.161 [main] INFO  testCases.TC_011_VerifySubscriptionInCartPage - **** clicked on subscribe button
+02:55:21.213 [main] INFO  testCases.TC_011_VerifySubscriptionInCartPage - **** validated the success message *****
+02:55:22.357 [main] INFO  testCases.TC_011_VerifySubscriptionInCartPage - ******* quiting the appliaction ******

@@ -31,6 +31,21 @@ public class HomePage extends BasePage{
 	@FindBy(xpath="//a[@href='/products']")
 	WebElement linkProducts;
 	
+	@FindBy(xpath="//h2[contains(text(),'Subscription')]")
+	WebElement txtSubscription;
+	
+	@FindBy(id="susbscribe_email")
+	WebElement txtBoxEmail;
+	
+	@FindBy(xpath="//button[@id='subscribe']")
+	WebElement btnSubscribe;
+	
+	@FindBy(xpath="//div[@class='alert-success alert']")
+	WebElement alertSuccessMsg;
+	
+	@FindBy(xpath="//header[@id='header']//li[3]/a")
+	WebElement linkCart;
+	
 	//ActionMethods:
 	public void click_sinup_login() {
 		link_sinup.click();
@@ -65,13 +80,29 @@ public class HomePage extends BasePage{
 		linkProducts.click();
 	}
 	
+	public WebElement subscription() {
+		return(txtSubscription);
+	}
 	
+	public boolean verifySubscription() {
+		return(txtSubscription.isDisplayed());
+	}
 	
+	public void enterEmail(String email){
+		txtBoxEmail.sendKeys(email);
+	}
 	
+	public void clickSubscribeBtn() {
+		btnSubscribe.click();
+	}
 	
+	public boolean verifySuccessMsg() {
+		return(alertSuccessMsg.isDisplayed());
+	}
 	
-	
-	
+	public void clickCart() {
+		linkCart.click();
+	}
 	
 
 }
