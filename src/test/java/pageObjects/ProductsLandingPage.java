@@ -28,6 +28,24 @@ public class ProductsLandingPage extends BasePage{
 	@FindBy(xpath="//h2[contains(text(),'Searched Products')]")
 	WebElement txtSearchedProducts;
 	
+	@FindBy(xpath="(//div[@class='product-image-wrapper'])[1]")
+	WebElement linkproduct1;
+	
+	@FindBy(xpath="(//a[contains(text(),'Add to cart')])[1]")
+	WebElement linkAddCart1;
+	
+	@FindBy(xpath="(//button[normalize-space()='Continue Shopping'])[1]")
+	WebElement btnContinueShopping;
+	
+	@FindBy(xpath="(//div[@class='product-image-wrapper'])[2]")
+	WebElement linkproduct2;
+	
+	@FindBy(xpath="(//a[contains(text(),'Add to cart')])[2]")
+	WebElement linkAddCart2;
+	
+	@FindBy(css="p[class='text-center'] a")
+	WebElement linkViewCart;
+	
 
 	
 	//Actions

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="2.878" tests="3" errors="0" skipped="2" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="355.965" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.17\bin"/>
-    <property name="sun.java.command" value="C:\Users\vasu1\AppData\Local\Temp\surefire5510705341826805911\surefirebooter-20230322234541368_3.jar C:\Users\vasu1\AppData\Local\Temp\surefire5510705341826805911 2023-03-22T23-45-41_083-jvmRun1 surefire-20230322234541368_1tmp surefire_0-20230322234541368_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\vasu1\AppData\Local\Temp\surefire3716555782140842232\surefirebooter-20230328005704671_3.jar C:\Users\vasu1\AppData\Local\Temp\surefire3716555782140842232 2023-03-28T00-57-04_382-jvmRun1 surefire-20230328005704671_1tmp surefire_0-20230328005704671_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\vasu1\Java Learning\AutomationExerciseApp\target\test-classes;C:\Users\vasu1\Java Learning\AutomationExerciseApp\target\classes;C:\Users\vasu1\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.1\selenium-java-4.8.1.jar;C:\Users\vasu1\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.1\selenium-api-4.8.1.jar;C:\Users\vasu1\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.1\selenium-chrome-driver-4.8.1.jar;C:\Users\vasu1\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\vasu1\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\vasu1\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\vasu1\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\vasu1\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\vasu1\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\vasu1\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\vasu1\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\vasu1\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\vasu1\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\vasu1\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.1\selenium-chromium-driver-4.8.1.jar;C:\Users\vasu1\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.1\selenium-json-4.8.1.jar;C:\Users\vasu1\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.8.1\selenium-devtools-v108-4.8.1.jar;C:\Users\vasu1\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.1\selenium-devtools-v109-4.8.1.jar;C:\Users\vasu1\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.8.1\selenium-devtools-v110-4.8.1.jar;C:\Users\vasu1\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.1\selenium-devtools-v85-4.8.1.jar;C:\Users\vasu1\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.1\selenium-edge-driver-4.8.1.jar;C:\Users\vasu1\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.1\selenium-firefox-driver-4.8.1.jar;C:\Users\vasu1\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.1\selenium-http-4.8.1.jar;C:\Users\vasu1\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\vasu1\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.1\selenium-ie-driver-4.8.1.jar;C:\Users\vasu1\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.1\selenium-remote-driver-4.8.1.jar;C:\Users\vasu1\.m2\repository\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar;C:\Users\vasu1\.m2\repository\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar;C:\Users\vasu1\.m2\repository\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar;C:\Users\vasu1\.m2\repository\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar;C:\Users\vasu1\.m2\repository\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar;C:\Users\vasu1\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar;C:\Users\vasu1\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.87.Final\netty-transport-classes-kqueue-4.1.87.Final.jar;C:\Users\vasu1\.m2\repository\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final.jar;C:\Users\vasu1\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final.jar;C:\Users\vasu1\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar;C:\Users\vasu1\.m2\repository\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar;C:\Users\vasu1\.m2\repository\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar;C:\Users\vasu1\.m2\repository\io\opentelemetry\opentelemetry-api\1.22.0\opentelemetry-api-1.22.0.jar;C:\Users\vasu1\.m2\repository\io\opentelemetry\opentelemetry-context\1.22.0\opentelemetry-context-1.22.0.jar;C:\Users\vasu1\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.22.0\opentelemetry-exporter-logging-1.22.0.jar;C:\Users\vasu1\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.22.0\opentelemetry-sdk-metrics-1.22.0.jar;C:\Users\vasu1\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.22.0-alpha\opentelemetry-sdk-logs-1.22.0-alpha.jar;C:\Users\vasu1\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.22.0-alpha\opentelemetry-api-logs-1.22.0-alpha.jar;C:\Users\vasu1\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.22.0\opentelemetry-sdk-common-1.22.0.jar;C:\Users\vasu1\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.22.0\opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar;C:\Users\vasu1\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.22.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar;C:\Users\vasu1\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.22.0\opentelemetry-sdk-trace-1.22.0.jar;C:\Users\vasu1\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.22.0\opentelemetry-sdk-1.22.0.jar;C:\Users\vasu1\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.22.0-alpha\opentelemetry-semconv-1.22.0-alpha.jar;C:\Users\vasu1\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\vasu1\.m2\repository\net\bytebuddy\byte-buddy\1.12.22\byte-buddy-1.12.22.jar;C:\Users\vasu1\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\vasu1\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\vasu1\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\vasu1\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\vasu1\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\vasu1\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\vasu1\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\vasu1\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\vasu1\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\vasu1\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.1\selenium-manager-4.8.1.jar;C:\Users\vasu1\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.1\selenium-safari-driver-4.8.1.jar;C:\Users\vasu1\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.1\selenium-support-4.8.1.jar;C:\Users\vasu1\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\vasu1\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\vasu1\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\vasu1\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\vasu1\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\vasu1\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\vasu1\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\vasu1\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\vasu1\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\vasu1\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\vasu1\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\vasu1\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\vasu1\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\vasu1\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\vasu1\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\vasu1\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\vasu1\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\vasu1\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\vasu1\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\vasu1\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\vasu1\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\vasu1\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\vasu1\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\vasu1\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\vasu1\AppData\Local\Temp\surefire5510705341826805911\surefirebooter-20230322234541368_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\vasu1\AppData\Local\Temp\surefire3716555782140842232\surefirebooter-20230328005704671_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.17+10-LTS-269"/>
@@ -60,58 +60,265 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="setup[edge](0)" classname="testCases.TC_009_VerifySearchProduct" time="2.22">
-    <failure message="null" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.fail(Assert.java:115)
-	at testBase.BaseClass.setup(BaseClass.java:70)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
+  <testcase name="test_existing_Email" classname="testCases.TC_005_Register_user_existingEmail" time="11.943">
+    <system-out><![CDATA[00:57:22.078 [main] INFO  testCases.TC_005_Register_user_existingEmail - ***** Edge driver launched *******
+00:57:31.628 [main] INFO  testCases.TC_005_Register_user_existingEmail - ****** url opened *******
+00:57:31.767 [main] INFO  testCases.TC_005_Register_user_existingEmail - ****** validated the homepage title ******
+00:57:31.786 [main] INFO  testCases.TC_005_Register_user_existingEmail - ****** Satrted TC_005_Register_user_existingEmail *****
+00:57:37.809 [main] INFO  testCases.TC_005_Register_user_existingEmail - **** Clicked on Sinup link ******
+00:57:37.848 [main] INFO  testCases.TC_005_Register_user_existingEmail - **** Verify the element new user sinup is visible********
+00:57:43.696 [main] INFO  testCases.TC_005_Register_user_existingEmail - **** Verify the msg Email Address already exist!********
+]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Mar 22, 2023 11:45:46 PM org.openqa.selenium.remote.service.DriverService findExecutable
-WARNING: Unable to obtain driver using Selenium Manager: Unsuccessful command executed: [C:\Users\vasu1\AppData\Local\Temp\selenium-manager23656387958650018087713374116648788\selenium-manager.exe, --driver, msedgedriver]
-ERROR	error sending request for url (https://msedgedriver.azureedge.net/111.0.1661.51/edgedriver_win64.zip): error trying to connect: dns error: No such host is known. (os error 11001)
+Starting Microsoft Edge WebDriver 111.0.1661.54 (9e410ec23a36266fd1bd72da1ffa52ca0cbfab78) on port 34058
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
-Build info: version: '4.8.1', revision: '8ebccac989'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
-Driver info: driver.version: EdgeDriver
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Mar 28, 2023 12:57:22 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: 110
 ]]></system-err>
   </testcase>
-  <testcase name="test_search_product" classname="testCases.TC_009_VerifySearchProduct" time="0">
-    <skipped message="null"/>
+  <testcase name="test_signupPage" classname="testCases.TC_001_Register_user" time="39.244">
+    <system-out><![CDATA[00:57:44.428 [main] INFO  testCases.TC_005_Register_user_existingEmail - ******* quiting the appliaction ******
+00:57:45.680 [main] INFO  testCases.TC_001_Register_user - ***** Edge driver launched *******
+00:57:53.314 [main] INFO  testCases.TC_001_Register_user - ****** url opened *******
+00:57:53.474 [main] INFO  testCases.TC_001_Register_user - ****** validated the homepage title ******
+00:57:53.476 [main] INFO  testCases.TC_001_Register_user - ****logstarting TC_001_Register_user Test*****
+00:58:00.213 [main] INFO  testCases.TC_001_Register_user - ***** Clicked on sinup Link *****
+00:58:00.244 [main] INFO  testCases.TC_001_Register_user - ***** Validated the New User Signup! title *****
+00:58:00.311 [main] INFO  testCases.TC_001_Register_user - ***** Started Entering the account details *******
+00:58:03.353 [main] INFO  testCases.TC_001_Register_user - ******** CLicked on sinup button *********
+00:58:03.652 [main] INFO  testCases.TC_001_Register_user - **** clicked on rd_btn ******
+00:58:03.744 [main] INFO  testCases.TC_001_Register_user - **** set password ******
+00:58:04.135 [main] INFO  testCases.TC_001_Register_user - **** set day from drpdown ******
+00:58:04.526 [main] INFO  testCases.TC_001_Register_user - **** set month drpdown ******
+00:58:04.693 [main] INFO  testCases.TC_001_Register_user - **** set year drpdown ******
+00:58:04.719 [main] INFO  testCases.TC_001_Register_user - **** clicked on newsletter checbox ******
+00:58:04.750 [main] INFO  testCases.TC_001_Register_user - **** clicked on option checbox ******
+00:58:04.867 [main] INFO  testCases.TC_001_Register_user - **** set firstname ******
+00:58:05.017 [main] INFO  testCases.TC_001_Register_user - **** set lastname ******
+00:58:05.147 [main] INFO  testCases.TC_001_Register_user - **** set companyname ******
+00:58:05.303 [main] INFO  testCases.TC_001_Register_user - **** set address1 ******
+00:58:05.436 [main] INFO  testCases.TC_001_Register_user - **** set address2 ******
+00:58:05.535 [main] INFO  testCases.TC_001_Register_user - **** set state ******
+00:58:05.669 [main] INFO  testCases.TC_001_Register_user - **** set cutyname ******
+00:58:05.799 [main] INFO  testCases.TC_001_Register_user - **** set zipcode ******
+00:58:05.911 [main] INFO  testCases.TC_001_Register_user - **** set mobile number ******
+00:58:07.343 [main] INFO  testCases.TC_001_Register_user - ***** Clicked on Submit button ********
+00:58:07.811 [main] INFO  testCases.TC_001_Register_user - **** Validated that account is created ******
+00:58:07.956 [main] INFO  testCases.TC_001_Register_user - ****** Clicked on contione button after acconnt creation *******
+00:58:17.022 [main] INFO  testCases.TC_001_Register_user - **** validated the account is logged in as username and see the logout link ******
+00:58:20.478 [main] INFO  testCases.TC_001_Register_user - ****** Clicked on Delete account button ***********
+00:58:20.504 [main] INFO  testCases.TC_001_Register_user - ******* validated the account deleted msg******
+]]></system-out>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.54 (9e410ec23a36266fd1bd72da1ffa52ca0cbfab78) on port 18949
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Mar 28, 2023 12:57:45 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: 110
+]]></system-err>
   </testcase>
-  <testcase name="teardown" classname="testCases.TC_009_VerifySearchProduct" time="0">
-    <skipped/>
+  <testcase name="test_Login" classname="testCases.TC_003_loginTestInvalid" time="17.761">
+    <system-out><![CDATA[00:58:33.678 [main] INFO  testCases.TC_001_Register_user - ******* quiting the appliaction ******
+00:58:35.144 [main] INFO  testCases.TC_003_loginTestInvalid - ***** Edge driver launched *******
+00:58:51.254 [main] INFO  testCases.TC_003_loginTestInvalid - ****** url opened *******
+00:58:51.397 [main] INFO  testCases.TC_003_loginTestInvalid - ****** validated the homepage title ******
+00:58:51.399 [main] INFO  testCases.TC_003_loginTestInvalid - ****** Starting Login test with invalid data ******
+00:58:56.988 [main] INFO  testCases.TC_003_loginTestInvalid - ****** Clicked on Login link ******
+00:58:57.017 [main] INFO  testCases.TC_003_loginTestInvalid - ***** validated the login to account is visible 
+00:58:57.110 [main] INFO  testCases.TC_003_loginTestInvalid - ***** entered email id  ******
+00:58:57.260 [main] INFO  testCases.TC_003_loginTestInvalid - ***** entered password  ******
+00:59:09.128 [main] INFO  testCases.TC_003_loginTestInvalid - ***** Clicked on login button  ******
+00:59:09.153 [main] INFO  testCases.TC_003_loginTestInvalid - ***** validated txt with expecting error ******
+]]></system-out>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.54 (9e410ec23a36266fd1bd72da1ffa52ca0cbfab78) on port 47502
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Mar 28, 2023 12:58:35 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: 110
+]]></system-err>
+  </testcase>
+  <testcase name="test_Login" classname="testCases.TC_004_LogoutTestValid" time="15.753">
+    <system-out><![CDATA[00:59:09.801 [main] INFO  testCases.TC_003_loginTestInvalid - ******* quiting the appliaction ******
+00:59:11.281 [main] INFO  testCases.TC_004_LogoutTestValid - ***** Edge driver launched *******
+00:59:24.224 [main] INFO  testCases.TC_004_LogoutTestValid - ****** url opened *******
+00:59:24.359 [main] INFO  testCases.TC_004_LogoutTestValid - ****** validated the homepage title ******
+00:59:26.767 [main] INFO  testCases.TC_004_LogoutTestValid - **** Clicked on signup link****
+00:59:26.813 [main] INFO  testCases.TC_004_LogoutTestValid - **** validated the login to your account text is visible ****
+00:59:26.919 [main] INFO  testCases.TC_004_LogoutTestValid - ***** entered email id  ******
+00:59:27.010 [main] INFO  testCases.TC_004_LogoutTestValid - ***** entered password  ******
+00:59:37.012 [main] INFO  testCases.TC_004_LogoutTestValid - ***** Clicked on login button  ******
+00:59:37.026 [main] INFO  testCases.TC_004_LogoutTestValid - ***** Validating the logout link in Loggedin homepage ******
+00:59:40.113 [main] INFO  testCases.TC_004_LogoutTestValid - ***** Clicked on logout button  ******
+00:59:40.113 [main] INFO  testCases.TC_004_LogoutTestValid - **** validating the login to your account text is visible ****
+]]></system-out>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.54 (9e410ec23a36266fd1bd72da1ffa52ca0cbfab78) on port 22417
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Mar 28, 2023 12:59:11 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: 110
+]]></system-err>
+  </testcase>
+  <testcase name="test_contactus_Form" classname="testCases.TC_006_ContactUsForm" time="53.265">
+    <system-out><![CDATA[00:59:41.062 [main] INFO  testCases.TC_004_LogoutTestValid - ******* quiting the appliaction ******
+00:59:42.415 [main] INFO  testCases.TC_006_ContactUsForm - ***** Edge driver launched *******
+00:59:58.651 [main] INFO  testCases.TC_006_ContactUsForm - ****** url opened *******
+00:59:58.778 [main] INFO  testCases.TC_006_ContactUsForm - ****** validated the homepage title ******
+00:59:58.779 [main] INFO  testCases.TC_006_ContactUsForm - ***** Started TC_006_ContactUsForm *******
+01:00:02.307 [main] INFO  testCases.TC_006_ContactUsForm - ***** Clicked on contactus link ******
+01:00:02.339 [main] INFO  testCases.TC_006_ContactUsForm - ***** validated get in touch element is visble
+01:00:02.573 [main] INFO  testCases.TC_006_ContactUsForm - **** name email and subjcet entered *****
+01:00:02.909 [main] INFO  testCases.TC_006_ContactUsForm - ***** entered my message *******
+01:00:02.955 [main] INFO  testCases.TC_006_ContactUsForm - **** file is uploaded*****
+01:00:03.000 [main] INFO  testCases.TC_006_ContactUsForm - **** clicked on submit button ***** 
+01:00:03.010 [main] INFO  testCases.TC_006_ContactUsForm - ***** Switched to alert and clicked on ok button *****
+01:00:03.056 [main] INFO  testCases.TC_006_ContactUsForm - ***** verified submitted details successfully message
+01:00:03.136 [main] INFO  testCases.TC_006_ContactUsForm - **** clicked on Home button ****
+01:00:52.043 [main] INFO  testCases.TC_006_ContactUsForm - **** validated the home page title *****
+]]></system-out>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.54 (9e410ec23a36266fd1bd72da1ffa52ca0cbfab78) on port 27020
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Mar 28, 2023 12:59:42 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: 110
+]]></system-err>
+  </testcase>
+  <testcase name="test_VerifyTestCasesPage" classname="testCases.TC_007_VerifyTestCasesPage" time="10.773">
+    <system-out><![CDATA[01:00:52.871 [main] INFO  testCases.TC_006_ContactUsForm - ******* quiting the appliaction ******
+01:00:53.995 [main] INFO  testCases.TC_007_VerifyTestCasesPage - ***** Edge driver launched *******
+01:01:06.461 [main] INFO  testCases.TC_007_VerifyTestCasesPage - ****** url opened *******
+01:01:06.603 [main] INFO  testCases.TC_007_VerifyTestCasesPage - ****** validated the homepage title ******
+01:01:06.604 [main] INFO  testCases.TC_007_VerifyTestCasesPage - *** Started TC_007_VerifyTestCasesPage ******
+01:01:06.684 [main] INFO  testCases.TC_007_VerifyTestCasesPage - ***** clicked on testcases link ******
+01:01:17.370 [main] INFO  testCases.TC_007_VerifyTestCasesPage - ***** validated the testcases page with testcases heading ******
+]]></system-out>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.54 (9e410ec23a36266fd1bd72da1ffa52ca0cbfab78) on port 17218
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Mar 28, 2023 1:00:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: 110
+]]></system-err>
+  </testcase>
+  <testcase name="test_verifyProductDetails" classname="testCases.TC_008_VerifyAllProductDetails" time="22.206">
+    <system-out><![CDATA[01:01:18.263 [main] INFO  testCases.TC_007_VerifyTestCasesPage - ******* quiting the appliaction ******
+01:01:19.688 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** Edge driver launched *******
+01:01:26.682 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ****** url opened *******
+01:01:26.837 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ****** validated the homepage title ******
+01:01:26.838 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** Started TC_008_VerifyAllProductDetails *****
+01:01:26.931 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** Clicked on products link *****
+01:01:44.775 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** validated all products *******
+01:01:48.854 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** clicked on first view product *****
+01:01:48.894 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** validated product name *******
+01:01:48.927 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** validated product category *******
+01:01:48.949 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** validated product price *******
+01:01:48.980 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** validated product availability *******
+01:01:48.998 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** validated product condition *******
+01:01:49.035 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** validated product brand *******
+01:01:49.035 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ***** testCase passed
+]]></system-out>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.54 (9e410ec23a36266fd1bd72da1ffa52ca0cbfab78) on port 13750
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Mar 28, 2023 1:01:19 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: 110
+]]></system-err>
+  </testcase>
+  <testcase name="test_search_product" classname="testCases.TC_009_VerifySearchProduct" time="15.854">
+    <system-out><![CDATA[01:01:49.901 [main] INFO  testCases.TC_008_VerifyAllProductDetails - ******* quiting the appliaction ******
+01:01:51.289 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** Edge driver launched *******
+01:02:18.646 [main] INFO  testCases.TC_009_VerifySearchProduct - ****** url opened *******
+01:02:18.784 [main] INFO  testCases.TC_009_VerifySearchProduct - ****** validated the homepage title ******
+01:02:18.792 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** Started TC_009_VerifySearchProduct *****
+01:02:18.898 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** Clicked on products link *****
+01:02:30.192 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** validated all products *******
+01:02:34.562 [main] INFO  testCases.TC_009_VerifySearchProduct - **** clicked search button ****
+01:02:34.588 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** validated searched products txt *****
+01:02:34.613 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** validated the searched product name *********
+01:02:34.632 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** validated the searched product name *********
+01:02:34.648 [main] INFO  testCases.TC_009_VerifySearchProduct - ***** validated the searched product name *********
+]]></system-out>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.54 (9e410ec23a36266fd1bd72da1ffa52ca0cbfab78) on port 20205
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Mar 28, 2023 1:01:51 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: 110
+]]></system-err>
+  </testcase>
+  <testcase name="test_subscription" classname="testCases.TC_010_VerifySubscriptionInHomePage" time="0.552">
+    <system-out><![CDATA[01:02:35.537 [main] INFO  testCases.TC_009_VerifySearchProduct - ******* quiting the appliaction ******
+01:02:37.185 [main] INFO  testCases.TC_010_VerifySubscriptionInHomePage - ***** Edge driver launched *******
+01:02:44.610 [main] INFO  testCases.TC_010_VerifySubscriptionInHomePage - ****** url opened *******
+01:02:44.737 [main] INFO  testCases.TC_010_VerifySubscriptionInHomePage - ****** validated the homepage title ******
+01:02:44.754 [main] INFO  testCases.TC_010_VerifySubscriptionInHomePage - ***** scroll to footer subscription element *******
+01:02:44.771 [main] INFO  testCases.TC_010_VerifySubscriptionInHomePage - ***** validated subscription txt is visible ****
+01:02:44.960 [main] INFO  testCases.TC_010_VerifySubscriptionInHomePage - **** entered email in txtbox ****
+01:02:45.222 [main] INFO  testCases.TC_010_VerifySubscriptionInHomePage - **** clicked on subscribe button ****
+01:02:45.289 [main] INFO  testCases.TC_010_VerifySubscriptionInHomePage - ***** validated subscription success message is visible ****
+]]></system-out>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.54 (9e410ec23a36266fd1bd72da1ffa52ca0cbfab78) on port 3162
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Mar 28, 2023 1:02:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: 110
+]]></system-err>
+  </testcase>
+  <testcase name="test_subscriptionInCart" classname="testCases.TC_011_VerifySubscriptionInCartPage" time="2.078">
+    <system-out><![CDATA[01:02:45.934 [main] INFO  testCases.TC_010_VerifySubscriptionInHomePage - ******* quiting the appliaction ******
+01:02:47.566 [main] INFO  testCases.TC_011_VerifySubscriptionInCartPage - ***** Edge driver launched *******
+01:02:57.470 [main] INFO  testCases.TC_011_VerifySubscriptionInCartPage - ****** url opened *******
+01:02:57.615 [main] INFO  testCases.TC_011_VerifySubscriptionInCartPage - ****** validated the homepage title ******
+01:02:57.617 [main] INFO  testCases.TC_011_VerifySubscriptionInCartPage - **** Started TC_011_VerifySubscriptionInCartPage testCase ****
+01:02:59.338 [main] INFO  testCases.TC_011_VerifySubscriptionInCartPage - ***** clicked on cart link *****
+01:02:59.468 [main] INFO  testCases.TC_011_VerifySubscriptionInCartPage - **** validated the subscription txt ****
+01:02:59.647 [main] INFO  testCases.TC_011_VerifySubscriptionInCartPage - **** clicked on subscribe button
+01:02:59.688 [main] INFO  testCases.TC_011_VerifySubscriptionInCartPage - **** validated the success message *****
+]]></system-out>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.54 (9e410ec23a36266fd1bd72da1ffa52ca0cbfab78) on port 6425
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Mar 28, 2023 1:02:47 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: 110
+]]></system-err>
   </testcase>
 </testsuite>

@@ -24,6 +24,15 @@ public class CartPage extends BasePage{
 	@FindBy(xpath="//div[@class='alert-success alert']")
 	WebElement alertSuccessMsg;
 	
+	@FindBy(css="p[class='text-center'] a")
+	WebElement txtPrice;
+	
+	@FindBy(css="tr[id='product-1'] button[class='disabled']")
+	WebElement txtQuantity;
+	
+	@FindBy(css="tr[id='product-1'] p[class='cart_total_price']")
+	WebElement txtTotalPrice;
+	
 	//Actions
 	
 	public WebElement subscription() {
