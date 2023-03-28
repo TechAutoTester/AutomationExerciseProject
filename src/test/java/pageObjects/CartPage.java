@@ -1,5 +1,6 @@
 package pageObjects;
 
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -24,14 +25,19 @@ public class CartPage extends BasePage{
 	@FindBy(xpath="//div[@class='alert-success alert']")
 	WebElement alertSuccessMsg;
 	
-	@FindBy(css="p[class='text-center'] a")
+	@FindBy(xpath="//tbody/tr")
+	WebElement listProducts;
+	
+	@FindBy(xpath="//tr/td[@class='cart_price']/p")
 	WebElement txtPrice;
 	
-	@FindBy(css="tr[id='product-1'] button[class='disabled']")
+	@FindBy(xpath="//tr/td[@class='cart_quantity']/button")
 	WebElement txtQuantity;
 	
-	@FindBy(css="tr[id='product-1'] p[class='cart_total_price']")
+	@FindBy(xpath="//tr/td[@class='cart_total']/p")
 	WebElement txtTotalPrice;
+	
+	
 	
 	//Actions
 	
@@ -52,8 +58,54 @@ public class CartPage extends BasePage{
 	}
 	
 	public boolean verifySuccessMsg() {
+		try {
 		return(alertSuccessMsg.isDisplayed());
+		}
+		catch(Exception e) {
+			return false;
+		}
 	}
 	
+	public Dimension verifyProductslist() {
+		try{
+			return(listProducts.getSize());
+		}
+	catch(Exception e) {
+		return null;
 	}
+	}
+	
+	public boolean verifyCartprice() {
+		try{
+			return(txtPrice.isDisplayed());
+	}
+		catch(Exception e) {
+			return false;
+		}
+	}
+	
+	
+	public boolean verifyQuantity() {
+		try{
+			return(txtQuantity.isDisplayed());
+	}
+		catch(Exception e) {
+			return false;
+		}
+	}
+	
+	public boolean verifyTotalprice() {
+		try{
+			return(txtTotalPrice.isDisplayed());
+	}
+		catch(Exception e) {
+			return false;
+		}
+	}
+
+
+
+
+
+}
 

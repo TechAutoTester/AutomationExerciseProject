@@ -12,7 +12,7 @@
     
     <classes>
      
-   				<class name="testCases.TC_005_Register_user_existingEmail"/>		
+   	<!--			<class name="testCases.TC_005_Register_user_existingEmail"/>		
 		      <class name="testCases.TC_001_Register_user"/>
 		      <class name="testCases.TC_003_loginTestInvalid"/>
 		      <class name="testCases.TC_004_LogoutTestValid"/>		
@@ -21,7 +21,8 @@
 		     <class name="testCases.TC_008_VerifyAllProductDetails"/>  	
 			 <class name="testCases.TC_009_VerifySearchProduct"/>		
 			 <class name="testCases.TC_010_VerifySubscriptionInHomePage"/>		
-			 <class name="testCases.TC_011_VerifySubscriptionInCartPage"/>	
+			 <class name="testCases.TC_011_VerifySubscriptionInCartPage"/>		-->
+			 <class name="testCases.TC_012_AddProductsToCart"/>
        
     </classes>
     

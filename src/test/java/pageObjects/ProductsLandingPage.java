@@ -28,25 +28,9 @@ public class ProductsLandingPage extends BasePage{
 	@FindBy(xpath="//h2[contains(text(),'Searched Products')]")
 	WebElement txtSearchedProducts;
 	
-	@FindBy(xpath="(//div[@class='product-image-wrapper'])[1]")
-	WebElement linkproduct1;
-	
-	@FindBy(xpath="(//a[contains(text(),'Add to cart')])[1]")
-	WebElement linkAddCart1;
-	
-	@FindBy(xpath="(//button[normalize-space()='Continue Shopping'])[1]")
-	WebElement btnContinueShopping;
-	
-	@FindBy(xpath="(//div[@class='product-image-wrapper'])[2]")
-	WebElement linkproduct2;
-	
-	@FindBy(xpath="(//a[contains(text(),'Add to cart')])[2]")
-	WebElement linkAddCart2;
-	
-	@FindBy(css="p[class='text-center'] a")
+	@FindBy(xpath="//p[@class='text-center']//a")
 	WebElement linkViewCart;
 	
-
 	
 	//Actions
 	public boolean verifyAll_products() {
@@ -81,8 +65,51 @@ public class ProductsLandingPage extends BasePage{
 	public  String productname(int i) {
 		
 			String productname=driver.findElement(By.xpath("//div["+i+"][@class='col-sm-4']/div/div/div/p")).getText();
-			return productname;
-			
+			return productname;	
+	}
 	
+	public WebElement productwrapper(int i) {
+		try{
+			WebElement linkProduct=driver.findElement(By.xpath("(//div[@class='product-image-wrapper'])["+i+"]"));
+		
+		return linkProduct;
+		}
+		catch(Exception e) {
+			return null;
+		}
+	}
+	
+	public WebElement productAddCart( int i) {
+		try{
+			WebElement  linkAddcart=driver. findElement(By.xpath("(//a[contains(text(),'Add to cart')])["+i+"]"));
+			return linkAddcart;
+	}
+	catch(Exception e) {
+	return null;
 }
+	}
+	
+	public void clickContinueShopping() {
+		try{
+			driver.findElement(By.xpath("(//button[contains(text(),'Continue Shopping')])")).click();	
+		}
+		catch(Exception e) {
+			e.getMessage();
+		}
+	}
+	
+	public void clickViewCart() {
+		try{
+			linkViewCart.click();
+		}
+		catch(Exception e) {
+			e.getMessage();
+		}
+	}
+	
+	
+	
+	
+	
+	
 }
