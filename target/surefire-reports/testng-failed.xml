@@ -7,13 +7,13 @@
   <test thread-count="5" name="AllTests2(failed)" verbose="0">
     <parameter name="browser" value="edge"/>
     <classes>
-      <class name="testCases.TC_009_VerifySearchProduct">
+      <class name="testCases.TC_012_AddProductsToCart">
         <methods>
           <include name="teardown"/>
-          <include name="test_search_product"/>
           <include name="setup"/>
+          <include name="test_AddProductsToCart"/>
         </methods>
-      </class> <!-- testCases.TC_009_VerifySearchProduct -->
+      </class> <!-- testCases.TC_012_AddProductsToCart -->
     </classes>
   </test> <!-- AllTests2(failed) -->
 </suite> <!-- Failed suite [MasterSuite] -->

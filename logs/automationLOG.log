@@ -404,3 +404,14 @@
 05:10:51.692 [main] INFO  testCases.TC_012_AddProductsToCart - **** hover on product2 and clicked on add to cart ***
 05:11:21.779 [main] INFO  testCases.TC_012_AddProductsToCart - **** clicked on view cart *****
 05:11:54.029 [main] INFO  testCases.TC_012_AddProductsToCart - ******* quiting the appliaction ******
+23:10:42.869 [main] INFO  testCases.TC_012_AddProductsToCart - ***** Edge driver launched *******
+23:10:55.867 [main] INFO  testCases.TC_012_AddProductsToCart - ****** url opened *******
+23:10:56.067 [main] INFO  testCases.TC_012_AddProductsToCart - ****** validated the homepage title ******
+23:10:56.082 [main] INFO  testCases.TC_012_AddProductsToCart - *** Started TC_012_AddProductsToCart ***
+23:11:14.871 [main] INFO  testCases.TC_012_AddProductsToCart - **** clicked on products *****
+23:11:14.908 [main] INFO  testCases.TC_012_AddProductsToCart - ***** scroll to product 1 ****
+23:11:15.248 [main] INFO  testCases.TC_012_AddProductsToCart - **** hover on product1 and clicked on add to cart button ****
+23:11:16.824 [main] INFO  testCases.TC_012_AddProductsToCart - ***** clicked on continue shopping ****
+23:11:17.208 [main] INFO  testCases.TC_012_AddProductsToCart - **** hover on product2 and clicked on add to cart ***
+23:11:47.300 [main] INFO  testCases.TC_012_AddProductsToCart - **** clicked on view cart *****
+23:12:18.737 [main] INFO  testCases.TC_012_AddProductsToCart - ******* quiting the appliaction ******
